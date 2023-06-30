@@ -1,0 +1,42 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1{
+    font-weight: 400;
+}
+/*There is a property of CSS called FLEX-BOX that consists of multiple
+ tools that helps us in designing
+ The properties of FLEX-BOX can only be used when display flex is active
+ */
+ header{
+/*this command arranges the block elements which are direct child side by side*/
+    display:flex;
+    justify-content: space-between;
+    margin: 0 3rem;                    /* 1 rem = 16pixels */
+
+}
+
+nav{
+    width:20rem;               /* extra space needs to be given while using nav as the default 
+                                  space is very small*/
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+.showcase-img{
+    width: 95vw;
+    margin:1rem
+
+}
+article{
+    display: flex;
+}
